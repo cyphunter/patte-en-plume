@@ -1,0 +1,14 @@
+{
+  "name": "Patte en plume — Community manager secteur animalier",
+  "short_name": "Patte en plume",
+  "description": "Cindy, community manager spécialisée dans le secteur animalier. Accompagnement éthique, humain et incarné.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8F1",
+  "theme_color": "#283D8B",
+  "lang": "fr",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/assets/img/logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

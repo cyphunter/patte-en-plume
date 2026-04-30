@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://patte-en-plume.fr/sitemap.xml
