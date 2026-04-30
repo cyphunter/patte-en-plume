@@ -76,8 +76,8 @@
       }
     });
 
-    // Fermer si on agrandit la fenêtre au-delà du breakpoint mobile
-    const mq = window.matchMedia('(min-width: 901px)');
+    // Fermer si on agrandit la fenêtre au-delà du breakpoint mobile/tablette
+    const mq = window.matchMedia('(min-width: 1100px)');
     mq.addEventListener('change', (e) => { if (e.matches) closeMenu(); });
   }
 
