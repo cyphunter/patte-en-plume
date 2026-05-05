@@ -208,8 +208,8 @@ p { margin: 0 0 1em; }
   height: 100%;
   gap: 1rem;
 }
-.logo { flex-shrink: 0; }
-.logo img { height: 50px; width: auto; transition: transform 0.3s var(--ease-out); }
+.logo { flex-shrink: 0; align-self: flex-start; }
+.logo img { height: 144px; width: auto; display: block; margin-top: -28px; transition: transform 0.3s var(--ease-out); }
 .logo:hover img { transform: scale(1.05) rotate(-2deg); }
 
 .main-nav { display: flex; align-items: center; }
@@ -727,7 +727,8 @@ p { margin: 0 0 1em; }
   }
   .menu li a.btn { margin-top: 0.8rem; }
 
-  .logo img { height: 44px; }
+  :root { --header-h: 64px; }
+  .logo img { height: 112px; margin-top: -22px; }
 }
 
 /* Reduced motion */
